@@ -43,8 +43,8 @@ Fields that are not in the text come back as `null` (or `"unclear"` for visa spo
 ## Setup
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/nmf-wasi/Job_Posting_Extractor_using_GEMINI
+cd Job_Posting_Extractor_using_GEMINI
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
